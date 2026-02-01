@@ -1,0 +1,19 @@
+{
+  "name": "chess-multiplayer-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for real-time chess multiplayer",
+  "main": "chess-server.js",
+  "scripts": {
+    "start": "node chess-server.js"
+  },
+  "keywords": [
+    "chess",
+    "multiplayer",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
